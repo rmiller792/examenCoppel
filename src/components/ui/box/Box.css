@@ -175,7 +175,7 @@
     justify-content: center;
     text-align: center;
     position: relative;
-    height: 170px !important;
+    height: 170px;
     text-align: center !important;
 }
 @media (max-width: 768px) {
@@ -196,6 +196,8 @@
    .card-primary-img .lazyImg  {
     width: 100% ;
 }
+
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -214,6 +216,9 @@
    .card-secundary-img .lazyImg  {
     width: 80% ;
 }
+.card-secundary-img {
+  height: 100px !important;
+}
 }
 
 @media only screen and (min-width: 992px) {
@@ -231,6 +236,9 @@
 }
    .card-secundary-img .lazyImg  {
     width: 80% ;
+}
+.card-secundary-img {
+  height: 137px !important;
 }
 }
 @media only screen and (min-width: 1200px) {
