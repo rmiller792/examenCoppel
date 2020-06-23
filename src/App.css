@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+body{
+      background: #F9FAFB;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.roboto{
+      font-family: "roboto","circular";
+    overflow-x: hidden;
+    font-size: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bold{
+  font-weight: 700;
+}
+
+.color-blue{
+  color: #005491;
+}
+.color-blanco{
+  color: #ffffff;
+}
+.color-negro{
+  color: #000;
+}
+
+
+.marginTop10{
+    margin-top: 10px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.marginTop35{
+    margin-top: 35px;
+}
+
+
+.text5{
+  font-size: 5px;
+}
+.text10{
+  font-size: 10px;
+}
+.text15{
+  font-size: 15px;
+}
+.text16{
+  font-size: 16px;
+}
+.text18{
+  font-size: 18px;
+}
+.text20{
+  font-size: 20px;
+}
+.text22{
+  font-size: 22px;
+}
+.text25{
+  font-size: 25px;
+}
+.text28{
+  font-size: 28px;
+}
+
+.card-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+
+.container {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+
+
+.sin_padding{
+  padding-left: 0px !important;
+}
+.sin_padding_l{
+  padding-left: 0px !important;
+}
+.sin_padding_r{
+  padding-right: 0px !important;
+}
+.sin_margin_l{
+  margin-left: 0px !important;
+}
+.sin_margin_r{
+  margin-right: 0px !important;
+}
+
+@media (max-width: 768px) {
+    .sin_padding{
+  padding-left: 15px !important;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 970px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
   }
 }

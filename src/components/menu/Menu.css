@@ -1,0 +1,36 @@
+body {
+    font-family: "roboto","sans-serif";
+    overflow-x: hidden;
+    font-size: 1rem;
+}
+.logo-coppel {
+  max-width: 160px;
+  height: 33.3px;
+}
+
+.header .pull-right {
+  margin: 10px 0 0;
+  font-size: 15px;
+}
+
+.header {
+  background: #fff;
+  padding: 20px 0;
+  position: relative;
+  z-index: 9;
+  width: 100%;
+      height: 70px;
+
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right;
+}
+
+a:visited {
+    color: #124979;
+}

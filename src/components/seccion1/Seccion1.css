@@ -1,0 +1,143 @@
+.landingAbono{
+
+    background-color: #006FB9;
+    width: 100%;
+}
+
+
+.landingAbono .BH {
+    background-color: rgb(0, 114, 190);
+    position: relative;
+    width: 100%;
+}
+
+.card-banner-color {
+    background-color: #006FB9;
+}
+
+.landingAbono .BH > div {
+    display: block;
+    margin: 0 auto;
+}
+
+.landingAbono .maxW_9 {
+    max-width: 992px;
+}
+
+.landingAbono .maxW_9 {
+    max-width: 992px;
+}
+
+.landingAbono .card-banner-format {
+    padding: 43px 0px 45px 0px;
+}
+
+.landingAbono .BannerPrinicipal {
+    width: 100%;
+}
+
+.landingAbono .BannerPrinicipal .TBannerP > .TPrin {
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-family: "Circular","Roboto";
+}
+
+.card-banner-color-title {
+    color: #ffffff;
+}
+
+.landingAbono .card-banner-format .picture {
+    text-align: right;
+}
+
+.card-banner-vertalign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    flex-direction: column;
+}
+
+.landingAbono .BannerPrinicipal .TBannerP > p {
+    color: #fff;
+    text-align: center;
+}
+.card-banner-format p {
+    text-align: left !important;
+}
+.landingAbono .BannerPrinicipal .TBannerP > .TSec {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: roboto;
+}
+.img{
+    width: 96% !important;
+}
+
+@media only screen and (max-width: 768px) {
+.landingAbono .BannerPrinicipal .TBannerP > .TPrin, .landingAbono .BannerPrinicipal .TBannerP > .TSec{
+    text-align: center !important;
+}
+.landingAbono .card-banner-format .picture {
+    text-align: center;
+}
+.card-banner-printext {
+    font-size: 30px!important;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  .landingAbono .card  {
+    width: 750px;
+  }
+  .landingAbono .BannerPrinicipal .TBannerP {
+    padding: 65px 0;
+}
+.landingAbono .BH > div {
+    padding-left: 5%;
+}
+.landingAbono .BannerPrinicipal .TBannerP > .TPrin, .landingAbono .BannerPrinicipal .TBannerP > .TSec{
+    text-align: center !important;
+}
+.landingAbono .card-banner-format .picture {
+    text-align: center;
+}
+
+.img{
+    width: 96% !important;
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .landingAbono .card  {
+    width: 970px;
+  }
+
+  .landingAbono .BannerPrinicipal .TBannerP {
+    padding: 0px 0px 0px 0px;
+    height: auto;
+    margin-top: 41px;
+}
+.landingAbono .BH > div {
+    padding-left: 5%;
+}
+.landingAbono .BannerPrinicipal .TBannerP > .TPrin, .landingAbono .BannerPrinicipal .TBannerP > .TSec{
+    text-align: left !important;
+}
+
+}
+@media only screen and (min-width: 1200px) {
+  .landingAbono .card  {
+    width: 1170px;
+  }
+  .landingAbono .BH > div {
+    display: block;
+    margin: 0 auto;
+    padding-left: inherit;
+}
+}

@@ -1,0 +1,249 @@
+.BRegistro,
+.bloqueRegistro #AbonarCoppel > .BAbonar,
+.bloqueRegistro #abonarAPP > .BAbonar {
+  padding: 10px !important;
+}
+.BAbonar,
+.BRegistro {
+  background-color: #fff !important;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.BAbonar,
+.BAbonar > div,
+.BRegistro,
+.bloqueRegistro > div,
+.quitarPadding,
+.BAPP > div,
+.btnACoppel,
+.btnAApp,
+.bBen {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-height-format {
+  min-height: 625px;
+}
+.card-height-format2 {
+  min-height: 625px;
+}
+
+.cards-top-color {
+  border-radius: 5px;
+  border-top: 6px solid #fddd2e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.list-formating {
+  counter-reset: item;
+}
+
+.list-formating li {
+  counter-increment: item;
+  margin-bottom: 22px;
+  font-size: 16px;
+  color: #111111 !important;
+  line-height: 24px !important;
+}
+
+.list-formating li::before {
+  content: counter(item) !important;
+  color: #0072be;
+  display: inline-block;
+  font-size: 18px;
+  width: 1em;
+  margin-left: -1em;
+  font-weight: 600;
+}
+
+.sin_padding_left {
+  padding-left: 0 !important;
+}
+
+.boton {
+  border: 1px solid;
+  border-color: #016db6;
+  margin: 10px;
+  height: 38px;
+  display: inline-block;
+  line-height: 38px;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 94%;
+}
+
+.maxW {
+    margin: 15px auto;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.card-icon-link {
+  line-height: 48px !important;
+  padding-right: 20px !important;
+}
+
+.card-link-active {
+  background-color: #006fb9 !important;
+  border-color: #006fb9 !important;
+  color: #fff !important;
+  height: 48px !important;
+  line-height: 46px !important;
+  font-size: 16px !important;
+  transition: background-color 0.15s;
+}
+
+.BRegistro .card-link-format {
+  border: none;
+  text-decoration: underline !important;
+  margin: 0;
+  display: inline;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: #006fb9 !important;
+}
+
+.card-download-link {
+  border: none !important;
+  margin: 6px 0 0 0 !important;
+  height: 48px !important;
+  width: 165px !important;
+}
+.card-download-link img {
+  width: 50%;
+  min-width: 165px;
+}
+
+.card-link-margin-fix {
+  margin-top: 110px !important;
+}
+
+.card-link-inactive {
+  line-height: 46px !important;
+  font-weight: 600;
+  border: 2px solid !important;
+  color: #006fb9 !important;
+  font-size: 16px !important;
+  border-color: #006fb9 !important;
+  height: 48px !important;
+  transition: background-color 0.15s;
+}
+
+.card-link-inactive:hover {
+  color: #fff !important;
+  background-color: #006fb9 !important;
+}
+
+.card-subtext-format {
+  color: #5f5f5f !important;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.card-span-format {
+  font-weight: 600;
+  color: #000000 !important;
+}
+
+.card-second-height-format {
+    padding: 0px 14px;
+}
+
+ .BRegistro.card-shadow {
+    padding: 14px 8px;
+}
+
+
+ .card-secondary-img img.img-telecomm {
+    width: 226px;
+}
+ .card-secundary-img {
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(150, 150, 150, .30) !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 170px !important;
+    text-align: center !important;
+}
+@media (max-width: 768px) {
+  .card-height-format {
+    min-height: auto;
+  }
+  .card-height-format2 {
+    min-height: 400px !important;
+  }
+
+  .sin_padding_left{
+      padding-left: 15px !important;
+  }
+
+      .card-second-height-format .list-formating {
+    margin-left: -33px;
+}
+   .card-primary-img .lazyImg  {
+    width: 100% ;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .card-height-format {
+    min-height: 903px;
+  }
+  .card-height-format2 {
+    min-height: 834px;
+  }
+    .card-second-height-format .list-formating {
+    margin-left: -33px;
+}
+   .card-primary-img .lazyImg  {
+    width: 100% ;
+}
+   .card-secundary-img .lazyImg  {
+    width: 80% ;
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .card-height-format {
+    min-height: 710px;
+  }
+  .card-height-format2 {
+    min-height: 600px;
+  }
+  .card-second-height-format .list-formating {
+    margin-left: -33px;
+}
+   .card-primary-img .lazyImg  {
+    width: 100% ;
+}
+   .card-secundary-img .lazyImg  {
+    width: 80% ;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .card-height-format {
+    min-height: 625px;
+  }
+  .card-height-format2 {
+    min-height: 501px;
+  }
+   .card-primary-img img {
+    width: 170px ;
+}
+   .card-secundary-img .lazyImg  {
+    width: 60% ;
+}
+}

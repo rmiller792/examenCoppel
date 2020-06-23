@@ -1,0 +1,130 @@
+.fixedExperiencia {
+  position: fixed;
+  bottom: 70px;
+  left: 12px;
+  user-select: none;
+  z-index: 10;
+}
+.buttonExperiencia {
+  position: fixed;
+  bottom: -2px;
+  background-color: #1A85D0 !important;
+  height: 306px;
+  width: 339px;
+  border-radius: 10px;
+  z-index: 10;
+  font-size: 1rem;
+  color: #fff;
+  fill: #fff;
+  letter-spacing: 0.4;
+  border-radius: 6px;
+  letter-spacing: 0.6;
+  font-size: 1.07143rem;
+  left: 62px;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+.buttonExperiencia {
+  box-shadow: none;
+  background-color: #1A85D0 !important;
+  color: #64550e !important;
+  fill: #64550e !important;
+}
+
+.cuadroExperiencia {
+  width: 100%;
+  max-width: 341px;
+  height: 125px;
+  background: #fff;
+  position: fixed;
+  bottom: 10px;
+  border-radius: 10px;
+  z-index: 10;
+  letter-spacing: 0.6;
+  font-size: 1.07143rem;
+  right: 22px;
+  user-select: none;
+}
+
+
+
+
+.escondeBotonExperiencia {
+    transform: translateY(292px);
+    transition: all 0.5s ease-in-out;
+}
+
+.muestraBotonExperiencia{
+    transition: all 0.5s ease-in-out;
+    display: inherit;
+}
+
+.cuadroMinimize{
+  background-color: #1A85D0;
+  position: absolute;
+  right: 15px;
+  top: -22px;
+  height: 25px;
+  width: 45px;
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
+
+.icon-arrow{
+  position: relative;
+  left: 17px;
+}
+
+.contentExperiencia form{
+   background-color: #6ba8d4 !important;
+   
+
+}
+
+.form:hover{
+   background-color: #54b5fa !important;
+
+}
+.form{
+    padding-top: 10px;
+  padding-bottom: 10px;
+   padding-left: 15px;
+}
+
+.pregunta{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bottonSiguiente{
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.cuadricula{
+  height: 29px;
+  width: 29px;
+  float: left;
+  border: 1px solid #FFF;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #1A85D0;
+  color: #FFF;
+}
+
+.cuadricula:hover{
+  background-color: #54b5fa;
+}
+.contenedorCuadricula{
+  padding-left: 6px;
+}
+
+.activeOption{
+  background-color: #54b5fa;
+
+}
